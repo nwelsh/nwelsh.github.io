@@ -1,0 +1,184 @@
+body {
+    background-color: #D2D7FF;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  
+
+ /* Typing effect */
+ .typewriter body {
+  padding-top: 5em;
+  display: flex; 
+  justify-content: center;
+}
+
+/* DEMO-SPECIFIC STYLES */
+.typewriter h1 {
+  color: rgb(0, 0, 0);
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid white; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white }
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+
+h3 {
+    outline-style: double;
+    font-family: monospace;
+    text-align: center;
+    outline-width: 7px;
+    outline-offset: 15px;
+    font-size: 22px;
+    background-color: #A5A9C9;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.Form body {
+font-family: monospace;
+box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #A5A9C9;
+  padding: 20px;
+}
+
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+/* HOME boxes*/
+
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    float: left;
+    width: 30%;
+    height: 800px; /* only for demonstration, should be removed */
+    background: #A6B1BD;
+    padding: 20px;
+}
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #D8D9E6;
+    height: 800px; /* only for demonstration, should be removed */
+}
+
+p1 {
+    font-family: monospace;
+}
+
+  
