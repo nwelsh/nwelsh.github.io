@@ -59,7 +59,7 @@ ul {
   }
   
 
- /* Typing effect */
+ /* Typing effect 
  .typewriter body {
   padding-top: 5em;
   display: flex; 
@@ -81,7 +81,7 @@ ul {
 }
 
 
-
+*/
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
