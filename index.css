@@ -1,5 +1,6 @@
 body {
     background-color: #D2D7FF;
+    font-family: monospace;
 }
 ul {
     list-style-type: none;
@@ -178,4 +179,7 @@ p1 {
     font-family: monospace;
 }
 
+footer {
+    font-family: monospace;   
+}
   
