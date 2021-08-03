@@ -1,4 +1,3 @@
 # nwelsh.github.io
-This is my 2021 website with my resume, contact information, and about me. 
-todo: fix image on proj2, contact sheet, 
-Last updated: 8/02/21
+This is my 2021 website with my resume, personal projects, contact information, and about me. 
+Last updated: 8/3/21
