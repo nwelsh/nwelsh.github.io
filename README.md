@@ -1,3 +1,3 @@
 # nwelsh.github.io
-This is my 2021 website with my resume, personal projects, contact information, and about me. 
-Last updated: 8/11/21
+This is my 2021 website with an about me, my resume, personal projects, and contact information. 
+Last updated: 8/12/21
