@@ -3,4 +3,4 @@ This is my 2021 website with an about me, my resume, personal projects, and cont
 
 link: https://nwelsh.github.io/
 
-Last updated: September 12, 2021
+Last updated: September 13, 2021
