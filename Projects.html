@@ -1,87 +1,63 @@
-    <!-- comments -->
-
-<html>
-<head>
-<link rel="stylesheet" type="text/css" href="index.css" media="screen"/>
-<link rel="icon" href="logot.png" type="image/icon type">
-<title>Nicole Welsh</title>
+<!-- HTML declaration and title element -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <link rel="icon" href="logot.png" type="image/icon">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+    
+    <title>Projects</title>
 </head>
+<!-- at least one page has a unique layout of content -->
 <body>
-        <h1>Nicole Welsh</h1>
     <ul>
-        <li><a href="index.html">Home/About</a></li>
-        <li><a href="resume.html">Resume</a></li>
+        <li><a href="index.html">About Me</a></li>
         <li><a href="Projects.html">Projects</a></li>
+        <li><a href="Resume.html">Resume</a></li>
         <li><a href="Contact.html">Contact</a></li>
     </ul>
+    
+    <h1>Nicole Welsh's Projects</h1>
 
     <section>
         <nav>
-            <h3>Project 1: Coding4Youth Website</h3>
-          </nav>
+            <hr>
+            <h5> Graphics Projects </h5>
+            <hr>
+            <article>
+            </br>
+                <h5> Project 1: Quadcopter </h5>
+                <canvas id="canvas1" height="600px" width="600px"></canvas>
+                <script src="graphic1.js" type="module" defer></script>
+            </article>
+            <article>
+            </br>
+                <h5> Project 2: Boids </h5>
+                <h6> Play with the sliders and buttons to control the boids! </h6>
+                <canvas id="flock" height="600px" width="600px"></canvas>
+                <input type="range" width="100px" min="0" max="10" step=".2" value="3" id="speed" />
+                <input type="range" width="100px" min="0" max="3" step=".2" value="3" id="steer" />
+                <button id="add">Add 10</button><button id="clear">Clear</button>
 
-       
-        <article>
-            <p1> In summer 2021, I worked with a company called Coding4Youth. Through this company, I was able to teach K-12 kids how to code! One of the classes I taught was Computer Science 105. This is a web development course. I made the lessons and assignments into a website. 
-            <br/>The website can be found here: <a href = "https://htmlpreview.github.io/?https://github.com/nwelsh/NicoleC4Y.github.io/blob/main/index.html"> Coding4YouthCS105 </a> </p1>
-            <hr>
-            <p1> Example of a page: </p1> <img src="Lesson12.jpg" alt="Lessons 1 and 2 Example" width = 100% height = "550px"> 
-            This is the page for lessons 1 and 2. This has a brief explaination of the lessons, the homework assignments, and links to the chapters. The students used this as a place to find all their necessary information. 
-            </p1>
-            <hr>
-        </article>
-    
-        <nav>
-            <h3>Project 2: Coding4Youth HTML Lessons</h3>
-      
-        </nav>
-          <article>
-            <hr>
-            <p1>  Additionally, for my Coding4Youth Computer Science 105 class, I made my lessons into HTML documents. I took the notes and compiled them into HTML pages so the student could do all the lesson's examples at once. 
-                <br/> <a href = "https://github.com/nwelsh/Summer2021HTMLLessons"> Link to the pages </a></p1>
-            <hr> 
-            <p1> Example of a page: </p1> <img src="lesson2.jpg" alt="Lesson 2 Example" width = 100% height = "550px"> 
-            <p1> This is an example of one of the lessons. This is a beginner course so the students are learning basic ideas before learning how to design. </p1>
-            <hr>
-    </article>
-    
-    <nav>
-            <h3>Project 3: Self Teaching Lessons</h3>
-      
-        </nav>
-          <article>
-            <hr>
-            <p1> I have been looking to broaden my knowledge on programming languages. I have been doing daily lessons to learn Python and C++. I make lessons and take notes in a github page. I use a visualizer or run the code to see the outcomes of it. Once I became more familiar with 
-              Python, I referenced the algorithm from my Binary Search Tree in Java and worked through a BST in Python. </p1>
-            <hr>
-            <a href = "https://github.com/nwelsh/PythonProjects"> Link to Python projects </a>
-            <br/> <a href = "https://github.com/nwelsh/C-Projects"> Link to C++ projects </a> <hr>
-    </article>
-    <nav>
-            <h3>Project 4: Graphics</h3>
-      
-        </nav>
-          <article>
-     <iframe
-    title="02-04-02"
-    src="02-04-02.html"
-    class="includebox includebox-standard"
-    width="100%"
-    height="100%"
-    scrolling="no"
-    frameborder="0"
-></iframe>
-              
-                  <canvas id="canvas1" height="600px" width="600px"></canvas>
+                <script src="graphic2.js" type="module" defer></script>
+            </article>
+            <article>
+            </br>
+                <h5> Project 3: Fireworks </h5>
+                <h6> Tap the canvas to create a firework! </h6>
+                <canvas id="box2canvas" height="600px" width="600px"></canvas>
+                
+                <script src="graphic3.js" type="module" defer></script>
+            </br>
 
-    <script src="03-06-01.js" type="module" defer></script>
-    </article>
-   
-    
+            </article>
+        </nav>
+
+        
     </section>
-<footer> 
-       <p> Updated: August 29, 2021 </p>
-       <p> &copy; Nicole Welsh 2021 </p> 
-</footer>
+    <!-- heading level 2-->
+    
+
+    <!-- images 2+ -->
+
 </body>
 </html>
