@@ -173,6 +173,7 @@ article {
     width: 70%;
     background-color: #D8D9E6;
     height: 800px; /* only for demonstration, should be removed */
+    
 }
 
 p1 {
@@ -183,3 +184,8 @@ footer {
     font-family: monospace;   
 }
   
+canvas {
+  margin-left: auto;
+  margin-right: auto;
+  float: center;
+}
