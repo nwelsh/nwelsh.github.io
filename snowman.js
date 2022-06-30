@@ -1,8 +1,5 @@
-// @ts-check
-/* jshint -W069, esversion:6 */
-
-import * as T from "../libs/CS559-Three/build/three.module.js";
-import { OrbitControls } from "../libs/CS559-Three/examples/jsm/controls/OrbitControls.js";
+import * as T from "./three.module.js";
+import { OrbitControls } from "./controls/OrbitControls.js";
 
 let renderer = new T.WebGLRenderer();
 renderer.setSize(500, 500);
