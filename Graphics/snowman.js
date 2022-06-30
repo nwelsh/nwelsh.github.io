@@ -1,5 +1,5 @@
-import * as T from "./three.module.js";
-import { OrbitControls } from "./controls/OrbitControls.js";
+import * as T from "../3DExtras/three.module.js";
+import { OrbitControls } from "./3DExtras/controls/OrbitControls.js.js";
 
 let renderer = new T.WebGLRenderer();
 renderer.setSize(500, 500);
