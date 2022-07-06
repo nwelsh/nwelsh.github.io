@@ -17,29 +17,13 @@ let steps = 200;
 
 function dots(u){
 let theta = 2 * Math.PI * 4 * u; 
-let x = 200 + u * 180 * Math.cos(theta);
-let y = 200 + u * 180 * Math.sin(theta);
+let x = 300 + u * 180 * Math.cos(theta);
+let y = 300 + u * 180 * Math.sin(theta);
 return [x,y];
 }
 
-canvas.style.backgroundColor = "purple";
+canvas.style.backgroundColor = "#C183EB";
 
-
-
-// box.oninput = function(element){
-//   drawChecked();
-// }
-
-
-function drawChecked(){ 
- // context.bezierCurveTo(x,y, x,y, x,y);
-  for(let u = 0; u < 1; u += 1/steps){
-    let x = dots(u)[0];
-    let y = dots(u)[1];
-    context.lineTo(x,y);
-  }
-  context.stroke();
-} 
 
 
 function drawNotChecked(){ 
