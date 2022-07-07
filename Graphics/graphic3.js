@@ -1,3 +1,4 @@
+// fireworks
 let canvas = (document.getElementById("box2canvas"));
 let context = canvas.getContext('2d');
 // I chose a monochrome of red and added dark purple for my fireworks colors 
@@ -25,7 +26,7 @@ function createDiscs(x, tx, ty)
 {
         return { "x":x, "y":height, "r": radius, "tx":tx, "ty":ty,
         "color":colors[Math.floor(genRand(0, colors.length))], 
-        "vx":((tx - x) / 12), "vy":((height - ty) / 12)}; // / is time to explode 
+        "vx":((tx - x) / 10), "vy":((height - ty) / 10)}; // / is time to explode 
 }
 // When the user clicks the mouse in the canvas (rectangle), a circle (a firework) starts at the bottom
 // edge of the screen and travels to the mouse position.
@@ -45,7 +46,7 @@ function fireworks()
         //create the boxes and the discs, creates explosion. for random and clicked discs
         discs.forEach(function(disc){
                 let discs = 0;
-                let newDiscs = Math.floor(genRand(10, 20)); // create 10 to 20 new discs 
+                let newDiscs = Math.floor(genRand(20, 30)); // create 10 to 20 new discs 
                 disc.x = disc.x + disc.vx;  //move the discs
                 disc.y = disc.y - disc.vy;
                 //to explode the disc into a bunch of boxes
