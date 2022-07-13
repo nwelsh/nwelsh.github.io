@@ -1,5 +1,5 @@
 body {
-    background-color: #D2D7FF;
+    background-color: whitesmoke;
     font-family: monospace;
 }
 ul {
@@ -40,7 +40,7 @@ ul {
   }
   
   .dropdown-content a {
-    color: black;
+    color: #551A73;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
