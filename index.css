@@ -98,3 +98,39 @@ canvas {
   margin-right: auto;
   float: center;
 }
+
+
+/* Art css*/
+
+  /* Center website */
+
+  * {
+    box-sizing: border-box;
+  }
+
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float:left;
+    width: 25%;
+  }
+  
+
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  
