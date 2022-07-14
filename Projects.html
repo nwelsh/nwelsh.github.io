@@ -1,15 +1,16 @@
 <!-- HTML declaration and title element -->
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+
+<head>
     <link rel="icon" href="Images/logot.png" type="image/icon">
-    <link rel="stylesheet" type="text/css" href="index.css" media="screen"/>
-    
+    <link rel="stylesheet" type="text/css" href="index.css" media="screen" />
+
     <title>Projects</title>
 </head>
 <!-- at least one page has a unique layout of content -->
+
 <body>
-    <h1>Nicole Welsh</h1>
 
     <ul>
         <li><a href="index.html">Home/About</a></li>
@@ -19,53 +20,67 @@
         <li><a href="3DArt.html">3D Art</a></li>
         <li><a href="Contact.html">Contact</a></li>
     </ul>
-    
-        
-            <hr>
-            <h5 style = "font-size: 22px; text-align: center;"> Graphics Projects </h5>
-            <h5 style =" font-size: 12px; text-align: center;"> I created these 2D graphics in my Computer Graphics class </h6>
 
-            <hr>
-            
-            </br>
 
-            <h5 style =" font-size: 15px; text-align: center;"> Graphic 1: Spiral Graphic </h5>
-            <!-- <h5 style =" font-size: 12px; text-align: center;"> I drew this using calculus to create a spiral </h6> -->
-                <canvas id="spiralcanvas" height="600px" width="600px" style ="display: block; "></canvas>
+    <hr>
+    <h5 style="font-size: 22px; text-align: center;"> Graphics Projects </h5>
+    <h5 style=" font-size: 12px; text-align: center;"> I created these 2D graphics in my Computer Graphics class </h6>
 
-                <script src="Graphics/spiral.js" type="module" defer></script>
-                <br>
+        <hr>
 
-                <h5 style =" font-size: 15px; text-align: center;"> Graphic 2: Quadcopter </h5>
-                <canvas id="canvas1" height="600px" width="600px" style ="display: block; "></canvas>
-                <script src="Graphics/graphic1.js" type="module" defer></script>
-            
-            </br>
-                <h5 style =" font-size: 15px; text-align: center;"> Graphic 3: Boids </h5>
-                <h5 style =" font-size: 12px; text-align: center;"> Play with the sliders and buttons to control the boids! </h6>
-                <canvas id="flock" height="600px" width="600px" style ="display: block; "></canvas>
-                <div style="margin-left: 35%;">
+        </br>
+
+        <h5 style=" font-size: 15px; text-align: center;"> Graphic 1: Spiral Graphic </h5>
+        <!-- <h5 style =" font-size: 12px; text-align: center;"> I drew this using calculus to create a spiral </h6> -->
+        <canvas id="spiralcanvas" height="600px" width="600px" style="display: block; "></canvas>
+
+        <script src="Graphics/spiral.js" type="module" defer></script>
+        <br>
+
+        <h5 style=" font-size: 15px; text-align: center;"> Graphic 2: Quadcopter </h5>
+        <canvas id="canvas1" height="600px" width="600px" style="display: block; "></canvas>
+        <script src="Graphics/graphic1.js" type="module" defer></script>
+
+        </br>
+        <h5 style=" font-size: 15px; text-align: center;"> Graphic 3: Boids </h5>
+        <h5 style=" font-size: 12px; text-align: center;"> Play with the sliders and buttons to control the boids! </h6>
+            <canvas id="flock" height="600px" width="600px" style="display: block; "></canvas>
+            <div style="margin-left: 35%;">
                 <input type="range" width="100px" min="0" max="10" step=".2" value="3" id="speed" />
                 <input type="range" width="100px" min="0" max="3" step=".2" value="3" id="steer" />
-                <button id="add"  >Add 10</button><button id="clear">Clear</button>
+                <button id="add">Add 10</button><button id="clear">Clear</button>
             </div>
 
-                <script src="Graphics/graphic2.js" type="module" defer></script>
+            <script src="Graphics/graphic2.js" type="module" defer></script>
             </br>
-                <h5 style =" font-size: 15px; text-align: center;"> Graphic 4: Fireworks </h5>
-                <h5 style =" font-size: 12px; text-align: center;"> Tap the canvas to create a firework! </h6>
-                <canvas id="box2canvas" height="600px" width="600px" style ="display: block; "></canvas>
-                
+            <h5 style=" font-size: 15px; text-align: center;"> Graphic 4: Fireworks </h5>
+            <h5 style=" font-size: 12px; text-align: center;"> Tap the canvas to create a firework! </h6>
+                <canvas id="box2canvas" height="600px" width="600px" style="display: block; "></canvas>
+
                 <script src="Graphics/graphic3.js" type="module" defer></script>
-            </br>
-            
+                </br>
+
 
 
 
                 <hr>
+                <h5 style="font-size: 22px; text-align: center;"> Yahtzee </h5>
+                <h5 style=" font-size: 12px; text-align: center;"> For a personal project, I decided to recreate my
+                    favorite game, Yahtzee, in a language I have not been using. </h5>
+                <hr>
+
+                <a href="http://tpcg.io/_GTITEI">
+                    <p style="text-align: center; font-size: 15px;">Try my yahtzee game! Press Execute to play! </p>>
+                </a>
+                <img src="Images/Yahtzee.png" style="display:block;margin-left: auto;margin-right: auto; height:750px">
+
+                <!-- <hr> -->
                 <!-- <h5 style = "font-size: 22px; text-align: center;"> Operating Systems Projects </h5> -->
-                <hr>
-  
+                <!-- <hr> -->
+
+
                 <!-- TODO: add OS projects, add 3D graphics -->
+
 </body>
+
 </html>
