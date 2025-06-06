@@ -1,6 +1,6 @@
 body {
     background-color: #DAEDF9;
-    font-family: monospace;
+    font-family:Arial, Helvetica, sans-serif;
 }
 ul {
     list-style-type: none;
@@ -63,13 +63,13 @@ ul {
 h1 {
   text-align: center;
   font-size: 50px;
-  font-family:'Courier New', Courier, monospace;
+  font-family:Arial, Helvetica, sans-serif;
 }
 
 
 h3 {
     outline-style: double;
-    font-family: monospace;
+    font-family:Arial, Helvetica, sans-serif;
     text-align: center;
     outline-width: 7px;
     outline-offset: 15px;
@@ -83,13 +83,13 @@ footer {
     padding: 10px;
     text-align: center;
     color: white;
-    font-family: monospace;   
+    font-family:Arial, Helvetica, sans-serif;   
 
 }
 
 
 p1 {
-    font-family: monospace;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
   
@@ -137,7 +137,7 @@ canvas {
 
   /* Split the screen in half */
 .split {
-  height: 75%;
+  height: 93%;
   width: 50%;
   position: fixed;
   z-index: 1;
