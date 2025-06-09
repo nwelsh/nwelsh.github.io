@@ -1,13 +1,14 @@
 body {
-    background-color: #DAEDF9;
-    font-family:Arial, Helvetica, sans-serif;
+    background-color: #f3f3f3;
+    font-family: sans-serif;
+    color: #03304c;
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #4A6B80;
+    background-color: #03304c;
   }
   
   li {
@@ -63,19 +64,6 @@ ul {
 h1 {
   text-align: center;
   font-size: 50px;
-  font-family:Arial, Helvetica, sans-serif;
-}
-
-
-h3 {
-    outline-style: double;
-    font-family:Arial, Helvetica, sans-serif;
-    text-align: center;
-    outline-width: 7px;
-    outline-offset: 15px;
-    font-size: 22px;
-    margin-bottom: 10px;
-    margin-top: 10px;
 }
 
 footer {
@@ -83,13 +71,7 @@ footer {
     padding: 10px;
     text-align: center;
     color: white;
-    font-family:Arial, Helvetica, sans-serif;   
 
-}
-
-
-p1 {
-    font-family:Arial, Helvetica, sans-serif;
 }
 
   
@@ -137,7 +119,7 @@ canvas {
 
   /* Split the screen in half */
 .split {
-  height: 93%;
+  height: 90%;
   width: 50%;
   position: fixed;
   z-index: 1;
@@ -149,11 +131,10 @@ canvas {
 /* Control the left side */
 .left {
   left: 0;
-  background-color: #BCCCD6;
 }
 
 /* Control the right side */
 .right {
   right: 0;
-  background-color: #3D5066;
+  /* background-color: #505862; */
 }
