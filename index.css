@@ -82,10 +82,6 @@ canvas {
 }
 
 
-/* Art css*/
-
-  /* Center website */
-
   * {
     box-sizing: border-box;
   }
@@ -97,13 +93,11 @@ canvas {
   }
   
   
-  /* Add padding BETWEEN each column (if you want) */
   .row,
   .row > .column {
     padding: 8px;
   }
   
-  /* Create four equal columns that floats next to each other */
   .column {
     float:left;
     width: 25%;
@@ -114,10 +108,6 @@ canvas {
     background-color: white;
     padding: 10px;
   }
-  
-  /* index */
-
-  /* Split the screen in half */
 .split {
   height: 90%;
   width: 50%;
@@ -128,13 +118,10 @@ canvas {
   padding-top: 20px;
 }
 
-/* Control the left side */
 .left {
   left: 0;
 }
 
-/* Control the right side */
 .right {
   right: 0;
-  /* background-color: #505862; */
 }
