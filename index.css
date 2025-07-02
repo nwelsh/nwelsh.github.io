@@ -129,3 +129,15 @@ h1 {
 .projects-disclaimer {
   text-align: center;
 }
+
+
+.contact-information {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-description {
+  font-family: sans-serif;
+  margin: 0;
+}
