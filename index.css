@@ -3,7 +3,7 @@ body {
   font-family: sans-serif;
   color: #03304c;
 }
-ul {
+.nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -11,11 +11,11 @@ ul {
   background-color: #03304c;
 }
 
-li {
+.nav-li {
   float: left;
 }
 
-li a,
+.nav-li a,
 .dropbtn {
   display: inline-block;
   color: white;
@@ -140,4 +140,12 @@ h1 {
 .contact-description {
   font-family: sans-serif;
   margin: 0;
+}
+
+.contact-links {
+  margin: 0;
+}
+
+.contact-li:not(:last-child) {
+  padding-bottom: .5rem;
 }
