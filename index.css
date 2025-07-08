@@ -177,3 +177,15 @@ h1 {
 .contact-li:not(:last-child) {
   padding-bottom: .5rem;
 }
+
+.reading-desc {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  align-items: center;
+  padding: 1rem;
+}
+
+.reading-desc-item {
+  margin: 0;
+}
