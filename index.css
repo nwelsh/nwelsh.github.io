@@ -116,9 +116,8 @@ li.dropdown {
   background-color: rgba(0,0,0,0.5);
 }
 
-/* Modal content box */
 .modal-content {
-  background-color: white;
+  background-color: rgb(235, 246, 253);
   margin: 15% auto;
   padding: 2rem;
   border-radius: 8px;
@@ -126,14 +125,14 @@ li.dropdown {
   max-width: 400px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
   position: relative;
-  word-wrap: break-word;      /* Break long words */
-  white-space: normal;        /* Allow line breaks */
+  word-wrap: break-word;     
+  white-space: normal;       
   overflow-wrap: anywhere;   
+  color: rgb(59, 67, 87);
 }
 
-/* Close button (X) */
 .close {
-  color: #aaa;
+  color: rgb(28, 40, 69);
   position: absolute;
   right: 1rem;
   top: 1rem;
