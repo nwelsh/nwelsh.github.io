@@ -104,6 +104,43 @@ li.dropdown {
     color: white;
 }
 
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.5);
+}
+
+/* Modal content box */
+.modal-content {
+  background-color: white;
+  margin: 15% auto;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 400px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  position: relative;
+  word-wrap: break-word;      /* Break long words */
+  white-space: normal;        /* Allow line breaks */
+  overflow-wrap: anywhere;   
+}
+
+/* Close button (X) */
+.close {
+  color: #aaa;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
 h1 {
   text-align: center;
   font-size: 50px;
