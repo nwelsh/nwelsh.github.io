@@ -4,6 +4,7 @@ body {
   background-color: #f3f3f3;
   font-family: sans-serif;
   color: #03304c;
+  margin: 0;
 }
 .nav {
   list-style-type: none;
@@ -11,7 +12,6 @@ body {
   padding: 0;
   overflow: hidden;
   background-color: #03304c;
-  margin-bottom: .5rem;
 }
 
 .nav-li {
