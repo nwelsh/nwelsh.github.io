@@ -28,31 +28,45 @@
 
     <h5 style="font-size: 22px; text-align: center;"> Graphics </h5>
     <p class="projects-disclaimer">These computer graphics were created with a 2D canvas using Javascript </p>
-
+  <div class="format-left">
 
         <h5 style=" font-size: 15px; text-align: center;"> Quadcopter </h5>
-        <canvas id="canvas1" height="600px" width="600px" style="display: block; "></canvas>
+        <canvas id="canvas1" height="400px" width="400px" style="display: block; margin: 0;"></canvas>
         <script src="Graphics/graphic1.js" type="module" defer></script>
+      </div>
 
         </br>
-        <h5 style=" font-size: 15px; text-align: center;"> Boids </h5>
-        <h5 style=" font-size: 12px; text-align: center;"> Play with the sliders and buttons to control the boids! </h5>
-        <canvas id="flock" height="600px" width="600px" style="display: block; "></canvas>
-        <div style="margin-left: 35%;">
+
+
+      <div class="format-right">
+        <script src="Graphics/graphic2.js" type="module" defer></script>
+        </br>
+        <div>
+        <h5 style=" font-size: 15px; text-align: center;"> Fireworks </h5>
+        <h5 style=" font-size: 12px; "> Tap the canvas to create a firework! </h5>
+      </div>
+        <canvas id="box2canvas" height="400px" width="400px" style="display: block; margin: 0;"></canvas>
+
+        <script src="Graphics/graphic3.js" type="module" defer></script>
+        </br>
+        </div>
+
+                <div class="format-left">
+
+                  <div>
+        <h5 style=" font-size: 15px;"> Boids </h5>
+        <h5 style=" font-size: 12px;"> Play with the sliders and buttons to control the boids! </h5>
+      </div>
+      <div style="display: flex; flex-direction: column;">
+        <canvas id="flock" height="400px" width="400px" style="display: block;  margin: 0;"></canvas>
+        <div style="display: flex; flex-direction: column;">
             <input type="range" width="100px" min="0" max="10" step=".2" value="3" id="speed" />
             <input type="range" width="100px" min="0" max="3" step=".2" value="3" id="steer" />
             <button id="add">Add 10</button><button id="clear">Clear</button>
         </div>
-
-        <script src="Graphics/graphic2.js" type="module" defer></script>
-        </br>
-        <h5 style=" font-size: 15px; text-align: center;"> Graphic 4: Fireworks </h5>
-        <h5 style=" font-size: 12px; text-align: center;"> Tap the canvas to create a firework! </h5>
-        <canvas id="box2canvas" height="600px" width="600px" style="display: block; "></canvas>
-
-        <script src="Graphics/graphic3.js" type="module" defer></script>
-        </br>
-
+      </div>
+      </div>
+<!-- 
         <div style="background: hsl(224deg 4.19% 25.97%); padding: .5rem;">
 
         <h5 style="font-size: 22px; text-align: center; color: #f3f3f3;"> Projects </h5>
@@ -64,7 +78,7 @@
             <p class="projects-disclaimer">I created this site where you can match with different dogs. The content comes from an API which displays all the dogs information in the form of cards. You must log in, then you can select favorites, sort, and find your match!</p>
             <a href="https://nwelsh.github.io/dog-shelter-match/" target="_blank" style="color: #f3f3f3;">Link to hosted site</a>
         </div>
-        </div>
+        </div> -->
     </div>
 </body>
 

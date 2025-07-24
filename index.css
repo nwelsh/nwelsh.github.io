@@ -97,11 +97,11 @@ li.dropdown {
 
 .home-title {
   position: absolute;
-    top: 50%;
-    z-index: 2;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
+  top: 50%;
+  z-index: 2;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
 
 .modal {
@@ -113,7 +113,7 @@ li.dropdown {
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .modal-content {
@@ -125,9 +125,9 @@ li.dropdown {
   max-width: 400px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
   position: relative;
-  word-wrap: break-word;     
-  white-space: normal;       
-  overflow-wrap: anywhere;   
+  word-wrap: break-word;
+  white-space: normal;
+  overflow-wrap: anywhere;
   color: rgb(59, 67, 87);
 }
 
@@ -221,8 +221,13 @@ h1 {
 }
 
 @keyframes fadeInOut {
-  0%, 100% { opacity: 0.2; }
-  50% { opacity: 1; }
+  0%,
+  100% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 1;
+  }
 }
 
 .contact-information {
@@ -232,7 +237,6 @@ h1 {
 .projects-disclaimer {
   text-align: center;
 }
-
 
 .contact-information {
   display: flex;
@@ -250,17 +254,32 @@ h1 {
 }
 
 .contact-li:not(:last-child) {
-  padding-bottom: .5rem;
+  padding-bottom: 0.5rem;
 }
 
 .reading-desc {
   display: flex;
   flex-direction: column;
-  gap: .5rem;
+  gap: 0.5rem;
   align-items: center;
   padding: 1rem;
 }
 
 .reading-desc-item {
   margin: 0;
+}
+
+.format-left {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.format-right {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem;
 }
