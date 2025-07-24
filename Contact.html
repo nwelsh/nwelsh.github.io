@@ -21,16 +21,37 @@
       </li>
     </ul>
 
-    <h1>Contact Information</h1>
+    <h1>Contact me!</h1>
+
+    <div style="display: flex; justify-content:flex-end; gap: 3rem; padding: 2rem;">
+    <form class="contact-form" action="https://formspree.io/f/xqalqazp" method="POST"
+    target="_blank">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required />
+    
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" pattern="[0-9\-+() ]*" />
+    
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" />
+    
+      <label for="comment">Comment</label>
+      <textarea id="comment" name="comment" rows="5"></textarea>
+    
+      <button type="submit">Send Message</button>
+    </form>
     <div class="contact-information">
       <p class="contact-description">Email: Nicole17Welsh@gmail.com </p>
-      <p class="contact-description"> Phone: (262) 893 - 2726 </p>
-      <p class="contact-description">Links:</p>
+      <p class="contact-description">Phone: (262) 893 - 2726 </p>
+      <p class="contact-description">My Links:</p>
       <ul class="contact-links">
         <li class="contact-li"><a href="https://github.com/nwelsh " target="_blank" class="contact-description">Github</a</li>
         <li class="contact-li"><a href="https://www.linkedin.com/in/nicole--welsh/" target="_blank" class="contact-description"
           >LinkedIn</a></li>
         <li class="contact-li"><a href="./Images/Nicole-Welsh-Resume-2025.pdf" download="./Images/Nicole-Welsh-Resume-2025.pdf" class="contact-description">Resume Download</a></li>
       </ul>
+
+    </div>
+      
   </body>
 </html>
