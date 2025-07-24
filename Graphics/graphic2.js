@@ -24,7 +24,7 @@ class Boid {
    * @param {number} vx   - initial X velocity
    * @param {number} vy   - initial Y velocity
    */
-  constructor(x, y, vx = 1, vy = 0, color = "pink") {
+  constructor(x, y, vx = 1, vy = 0, color = "#ff09b9") {
     this.x = x;
     this.y = y;
     this.vx = vx;
@@ -106,7 +106,7 @@ let canvas = /** @type {HTMLCanvasElement} */ (
   document.getElementById("flock")
 );
 let context = canvas.getContext("2d");
-canvas.style.backgroundColor = "#504B59";
+canvas.style.backgroundColor = "#061f2e";
 
 let speedSlider = /** @type {HTMLInputElement} */ (
   document.getElementById("speed")
@@ -133,9 +133,9 @@ function obstacles() {
 //  */
 // theBoids.push(new Boid(100, 100));
 //left in so I have some initial boids to reference
-theBoids.push(new Boid(200, 200, -1, 0, "pink"));
-theBoids.push(new Boid(300, 300, 0, -1, "pink"));
-theBoids.push(new Boid(400, 400, 0, 1, "pink"));
+theBoids.push(new Boid(200, 200, -1, 0, "#ff09b9"));
+theBoids.push(new Boid(300, 300, 0, -1, "#ff09b9"));
+theBoids.push(new Boid(400, 400, 0, 1, "#ff09b9"));
 
 /**
  * Handle the buttons
@@ -151,7 +151,7 @@ document.getElementById("add").onclick = function () {
         genRand(20, 580),
         genRand(-1, 1),
         genRand(-1, 1),
-        "pink"
+        "#ff09b9"
       )
     );
   }

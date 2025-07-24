@@ -3,7 +3,7 @@ export {};
 
 const canvas = /** @type {HTMLCanvasElement} */ (document.getElementById("canvas1"));
 let context = canvas.getContext('2d');
-canvas.style.backgroundColor = "#2D2338"; 
+canvas.style.backgroundColor = "#061f2e"; 
 
 let height = canvas.height;
 let width = canvas.width;

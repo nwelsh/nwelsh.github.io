@@ -271,15 +271,18 @@ h1 {
 
 .format-left {
   display: flex;
-  gap: 2rem;
+  gap: 8rem;
   justify-content: center;
-  margin: 2rem;
+  padding: 2rem;
+  color: #061f2e;
 }
 
 .format-right {
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
-  gap: 2rem;
-  margin: 2rem;
+  gap: 8rem;
+  padding: 2rem;
+  background-color: #061f2e;
+  color: white;
 }
