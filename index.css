@@ -170,6 +170,8 @@ h1 {
 .row,
 .row > .column {
   padding: 8px;
+  display: flex;
+
 }
 
 .column {
