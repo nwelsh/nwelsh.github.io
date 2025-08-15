@@ -176,12 +176,13 @@ h1 {
 
 .column {
   float: left;
-  width: 25%;
+  width: 100%;
 }
 
 .content {
   background-color: white;
   padding: 10px;
+  width: 100%;
 }
 .split {
   height: 90%;
