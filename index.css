@@ -260,6 +260,10 @@ h1 {
   padding-bottom: 0.5rem;
 }
 
+.books-image {
+  width: 80%;
+}
+
 .reading-desc {
   display: flex;
   flex-direction: column;
