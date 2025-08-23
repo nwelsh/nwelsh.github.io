@@ -167,20 +167,17 @@ h1 {
   word-break: break-all;
 }
 
-/* Default (desktop) */
 .row {
   display: flex;
-  flex-direction: row; /* children side-by-side */
+  flex-direction: row;
 }
 
-/* Mobile (stacked) */
 @media screen and (max-width: 768px) {
   .row {
-    flex-direction: column; /* children stacked vertically */
+    flex-direction: column; 
   }
 }
 
-/* Padding for spacing */
 .row > .column {
   padding: 8px;
 }
