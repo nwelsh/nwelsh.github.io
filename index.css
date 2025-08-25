@@ -196,7 +196,6 @@ h1 {
 }
 .split {
   height: 90%;
-  /* width: 50%; */
   position: fixed;
   z-index: 1;
   bottom: 0;
