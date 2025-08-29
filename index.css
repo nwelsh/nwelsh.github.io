@@ -344,6 +344,19 @@ h1 {
   width: 50%;
 }
 
+
+@media screen and (max-width: 500px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+}
+
+
 .contact-form label {
   font-weight: bold;
 }
