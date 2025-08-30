@@ -174,14 +174,13 @@ h1 {
 
 @media screen and (max-width: 768px) {
   .row {
-    flex-direction: column; 
+    flex-direction: column;
   }
 }
 
 .row > .column {
   padding: 8px;
 }
-
 
 .column {
   float: left;
@@ -300,7 +299,7 @@ h1 {
 .reading-btn {
   color: white;
   background-color: rgb(87, 6, 112);
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   border-radius: 2rem;
   font-size: 1rem;
   text-decoration: none;
@@ -335,7 +334,6 @@ h1 {
   color: white;
 }
 
-
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -343,7 +341,6 @@ h1 {
   font-family: sans-serif;
   width: 50%;
 }
-
 
 @media screen and (max-width: 500px) {
   .contact {
@@ -355,7 +352,6 @@ h1 {
     width: 100%;
   }
 }
-
 
 .contact-form label {
   font-weight: bold;
