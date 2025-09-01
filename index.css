@@ -251,6 +251,7 @@ h1 {
 
 .contact-button {
   background-color: rgb(87, 6, 112);
+  border: 1px solid red;
 }
 
 .contact-information {
@@ -373,7 +374,7 @@ h1 {
 .contact-form button {
   padding: 0.75rem;
   font-size: 1rem;
-  background-color: #333;
+  background-color: rgb(87, 6, 112);
   color: white;
   border: none;
   border-radius: 8px;
@@ -382,5 +383,5 @@ h1 {
 }
 
 .contact-form button:hover {
-  background-color: #555;
+  background-color: rgb(99, 75, 254);
 }
