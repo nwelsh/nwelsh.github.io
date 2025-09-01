@@ -249,6 +249,10 @@ h1 {
   text-align: center;
 }
 
+.contact-button {
+  background-color: rgb(87, 6, 112);
+}
+
 .contact-information {
   display: flex;
   flex-direction: column;
