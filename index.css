@@ -260,7 +260,6 @@ h1 {
   margin: 0;
 }
 
-
 .contact-links {
   margin: 0;
 }
@@ -269,8 +268,9 @@ h1 {
   padding-bottom: 0.5rem;
 }
 
-.contact-description-a:hover, li a:hover {
-  background-color: rgb(126, 82, 255);
+.contact-description-a:hover,
+li a:hover {
+  background-color: rgb(109, 70, 226);
 }
 
 .books-image {
